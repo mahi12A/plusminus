@@ -1,0 +1,19 @@
+package javaProgramming1;
+
+import java.util.Arrays;
+
+public class SortedWords {
+
+	public static void main(String[] args) {
+		sortStrings("I love leetcode , I love code");
+
+	}
+	
+	
+	static void sortStrings(String str){
+		String[] strList = str.split(" ");
+		System.out.println(Arrays.toString(strList));
+		
+	}
+
+}

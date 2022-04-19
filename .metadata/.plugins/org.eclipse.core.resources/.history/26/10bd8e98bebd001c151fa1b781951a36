@@ -1,0 +1,28 @@
+package javaProgramming1;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class SortedWords {
+
+	public static void main(String[] args) {
+		sortStrings("I love leetcode , I love code");
+
+	}
+	
+	
+	static void sortStrings(String str){
+		Map<String, Integer> map  = new HashMap<>();
+		String[] strList = str.split(" ");
+		System.out.println(Arrays.toString(strList));
+		
+		for(int i=0; i< strList.length;i++)
+		{
+			int count = 0;
+			if (strList[0])
+		}
+		
+	}
+
+}

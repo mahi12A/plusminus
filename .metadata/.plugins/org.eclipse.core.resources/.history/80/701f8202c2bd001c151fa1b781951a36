@@ -1,0 +1,22 @@
+package javaProgramming1;
+
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
+public class Stream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> als= new ArrayList<>();
+		als.add(23);
+		als.add(13);
+		als.add(43);
+		als.add(93);
+		als.add(200);
+
+		ArrayList<Integer> alsm = 	(ArrayList<Integer>)als.stream().filter(i->i>30).collect(Collectors.toList());
+
+		System.out.println(alsm);
+	}
+
+}

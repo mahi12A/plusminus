@@ -1,0 +1,18 @@
+package javaProgramming1;
+
+import java.util.ArrayList;
+
+public class Stream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> als= new ArrayList<>();
+		als.add(23);
+		als.add(13);
+		als.add(43);
+		als.add(93);
+		als.add(200);
+
+	}
+
+}
